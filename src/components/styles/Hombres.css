@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: black;
+}
+
+.hombres-hero {
+    width: 100%;
+}
+
+.hombres-hero-img {
+    width: 100%;
+}
+
+.hombres-container {
+    display: flex;
+    justify-content: center;
+    padding: 100px 50px;
+    margin: 0 auto;
+}
+
+.hombres-card {
+    width: 300px;
+    margin: 0 10px;
+}
+
+.hombres-card-img {
+    width: 100%;
+}
