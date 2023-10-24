@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: black;
+}
+
+.niños-hero {
+    width: 100%;
+}
+
+.niños-hero-img {
+    width: 100%;
+}
+
+.niños-container {
+    display: flex;
+    justify-content: center;
+    padding: 100px 50px;
+    margin: 0 auto;
+}
+
+.niños-card {
+    width: 300px;
+    margin: 0 10px;
+}
+
+.niños-card-img {
+    width: 100%;
+}

@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: black;
+}
+
+.mujeres-hero {
+    width: 100%;
+}
+
+.mujeres-hero-img {
+    width: 100%;
+}
+
+.mujeres-container {
+    display: flex;
+    justify-content: center;
+    padding: 100px 50px;
+    margin: 0 auto;
+}
+
+.mujeres-card {
+    width: 300px;
+    margin: 0 10px;
+}
+
+.mujeres-card-img {
+    width: 100%;
+}
