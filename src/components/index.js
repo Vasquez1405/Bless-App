@@ -1,3 +1,4 @@
+export * from './Inicio'
 export * from './Navbar'
 export * from './FeaturedProduct'
 export * from './Hombres'
