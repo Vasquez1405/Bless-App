@@ -4,6 +4,7 @@ import '../../styles/Mujeres.css'
 
 import portadaMujeres from '../../../assets/images/portada-mujeres.png'
 import prontoMujeresImg from '../../../assets/images/pronto-mujeres.png'
+import { FeaturedProduct } from '../components'
 
 export const Mujeres = () => {
     return (
@@ -44,6 +45,8 @@ export const Mujeres = () => {
                     <a className='mujeres-card-link' href="">Ver Coleccion</a>
                 </div>
             </div>
+
+            <FeaturedProduct />
         </div>
     )
 }

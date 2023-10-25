@@ -3,6 +3,7 @@ import React from 'react'
 import '../../styles/Niños.css'
 import portadaNiños from '../../../assets/images/portada-niños.png'
 import prontoNiñosImg from '../../../assets/images/pronto-niños.png'
+import { FeaturedProduct } from '../components/FeaturedProduct'
 
 export const Niños = () => {
     return (
@@ -35,6 +36,8 @@ export const Niños = () => {
                     <a className='niños-card-link' href="">Ver Coleccion</a>
                 </div>
             </div>
+
+            <FeaturedProduct />
         </div>
     )
 }

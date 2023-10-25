@@ -4,6 +4,7 @@ import '../../styles/Hombres.css'
 
 import portadaHombres from '../../../assets/images/portada-hombres.png'
 import prontoHombresImg from '../../../assets/images/pronto-hombres.png'
+import { FeaturedProduct } from '../components'
 
 export const Hombres = () => {
     return (
@@ -45,6 +46,7 @@ export const Hombres = () => {
                     <a className='hombres-card-link' href="">Ver Coleccion</a>
                 </div>
             </div>
+            <FeaturedProduct />
         </div>
     )
 }

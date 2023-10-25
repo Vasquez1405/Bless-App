@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.featured-product-container-article {
+    padding-left: 10px;
+    width: 30%;
+    min-width: 200px;
+    max-width: 300px;
+}
+
+.featured-product-container-article-main {
+    position: relative;
+}
+
+.featured-product-container-article img {
+    width: 100%;
+}
+
+.article-form {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 70%;
+}
+
+.article-form select {
+    margin-bottom: 5px;
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.article-form button {
+    max-height: 40px;
+    min-width: 150px;
+    max-width: 150px;
+    padding: 2px;
+}

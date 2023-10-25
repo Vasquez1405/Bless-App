@@ -1,5 +1,4 @@
 export * from './Inicio'
-export * from './FeaturedProduct'
 export * from './Hombres'
 export * from './Mujeres'
 export * from './Niños'
