@@ -1,8 +1,7 @@
-import React from 'react'
 import { productos } from '../data/productos'
 
 export const getProductsByCategory = (category) => {
-    const validCategorys = ['Buzo Hombres', 'Chaqueta Hombres', 'Gorra Hombres', 'Gorro Hombres']
+    const validCategorys = ['Buzo', 'Chaqueta', 'Gorra', 'Gorro']
 
     if (!validCategorys.includes(category)) {
         throw new Error(`${category} is not a valid category`)

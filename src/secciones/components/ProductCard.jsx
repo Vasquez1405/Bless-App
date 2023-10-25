@@ -2,7 +2,6 @@ import React from 'react'
 
 import '../../styles/ProductCard.css'
 
-import pantsImg from '../../../assets/images/pants.jpg'
 import { Link } from 'react-router-dom'
 
 export const ProductCard = ({
@@ -10,6 +9,7 @@ export const ProductCard = ({
   name,
   imageURL,
   category,
+  seccion,
   price,
 
 }) => {
@@ -34,7 +34,7 @@ export const ProductCard = ({
         <p><b>{name}</b></p>
         <p><b>$ {price}</b></p>
       </div>
-      <Link to={`/product/${id}`}>
+      <Link to={`/producto/${id}`}>
         Mas...
       </Link>
     </div>

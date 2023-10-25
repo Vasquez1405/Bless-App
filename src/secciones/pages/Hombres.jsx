@@ -46,7 +46,7 @@ export const Hombres = () => {
                     <a className='hombres-card-link' href="">Ver Coleccion</a>
                 </div>
             </div>
-            <FeaturedProduct />
+            <FeaturedProduct seccion='Hombres' />
         </div>
     )
 }

@@ -37,7 +37,7 @@ export const Niños = () => {
                 </div>
             </div>
 
-            <FeaturedProduct />
+            <FeaturedProduct seccion='Niños' />
         </div>
     )
 }
