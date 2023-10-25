@@ -1,8 +1,8 @@
 import React from 'react'
 
-import './styles/Niños.css'
-import portadaNiños from '../assets/images/portada-niños.png'
-import prontoNiñosImg from '../assets/images/pronto-niños.png'
+import '../../styles/Niños.css'
+import portadaNiños from '../../../assets/images/portada-niños.png'
+import prontoNiñosImg from '../../../assets/images/pronto-niños.png'
 
 export const Niños = () => {
     return (

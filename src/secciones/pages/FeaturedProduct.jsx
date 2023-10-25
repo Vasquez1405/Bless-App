@@ -1,7 +1,8 @@
 import React from 'react'
-import './styles/FeaturedProduct.css'
 
-import pantsImg from '../assets/images/pants.jpg'
+import '../../styles/FeaturedProduct.css'
+
+import pantsImg from '../../../assets/images/pants.jpg'
 
 export const FeaturedProduct = () => {
 

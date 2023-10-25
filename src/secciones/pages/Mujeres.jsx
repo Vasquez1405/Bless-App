@@ -1,9 +1,9 @@
 import React from 'react'
 
-import './styles/Mujeres.css'
+import '../../styles/Mujeres.css'
 
-import portadaMujeres from '../assets/images/portada-mujeres.png'
-import prontoMujeresImg from '../assets/images/pronto-mujeres.png'
+import portadaMujeres from '../../../assets/images/portada-mujeres.png'
+import prontoMujeresImg from '../../../assets/images/pronto-mujeres.png'
 
 export const Mujeres = () => {
     return (

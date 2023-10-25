@@ -1,9 +1,9 @@
 import React from 'react'
 
-import './styles/Hombres.css'
+import '../../styles/Hombres.css'
 
-import portadaHombres from '../assets/images/portada-hombres.png'
-import prontoHombresImg from '../assets/images/pronto-hombres.png'
+import portadaHombres from '../../../assets/images/portada-hombres.png'
+import prontoHombresImg from '../../../assets/images/pronto-hombres.png'
 
 export const Hombres = () => {
     return (

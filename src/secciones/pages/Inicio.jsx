@@ -1,12 +1,12 @@
 import React from 'react'
 
-import './styles/Inicio.css'
+import '../../styles/Inicio.css'
 
-import portadaInicioImg from '../assets/images/portada-inicio.png'
-import seccionHombreImg from '../assets/images/seccion-hombre.png'
-import seccionMujerImg from '../assets/images/seccion-mujer.png'
-import seccionNiñosImg from '../assets/images/seccion-niño.jpg'
-import articulosBuzoImg from '../assets/images/buzo.jpg'
+import portadaInicioImg from '../../../assets/images/portada-inicio.png'
+import seccionHombreImg from '../../../assets/images/seccion-hombre.png'
+import seccionMujerImg from '../../../assets/images/seccion-mujer.png'
+import seccionNiñosImg from '../../../assets/images/seccion-niño.jpg'
+import articulosBuzoImg from '../../../assets/images/buzo.jpg'
 
 export const Inicio = () => {
     return (
@@ -36,20 +36,20 @@ export const Inicio = () => {
                 <h2 className=' articulos-title'>CONOCE NUESTROS PRODUCTOS</h2>
                 <div className='articulos-container row'>
                     <div className='articulos-card col-5'>
+                        <img className='articulos-card-img' src={articulosBuzoImg} alt="" />
                         <a className='articulos-card-link' href="">BUZOS</a>
-                        <img className='articulos-card-img' src={articulosBuzoImg} alt="" />
                     </div>
                     <div className='articulos-card col-5'>
+                        <img className='articulos-card-img' src={articulosBuzoImg} alt="" />
                         <a className='articulos-card-link' href="">CHAQUETAS</a>
-                        <img className='articulos-card-img' src={articulosBuzoImg} alt="" />
                     </div>
                     <div className='articulos-card col-5'>
+                        <img className='articulos-card-img' src={articulosBuzoImg} alt="" />
                         <a className='articulos-card-link' href="">GORROS</a>
-                        <img className='articulos-card-img' src={articulosBuzoImg} alt="" />
                     </div>
                     <div className='articulos-card col-5'>
-                        <a className='articulos-card-link' href="">GORRAS</a>
                         <img className='articulos-card-img' src={articulosBuzoImg} alt="" />
+                        <a className='articulos-card-link' href="">GORRAS</a>
                     </div>
                 </div>
             </div>

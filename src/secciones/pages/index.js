@@ -1,7 +1,5 @@
 export * from './Inicio'
-export * from './Navbar'
 export * from './FeaturedProduct'
 export * from './Hombres'
 export * from './Mujeres'
 export * from './Niños'
-export * from './Footer'
