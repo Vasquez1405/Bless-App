@@ -6,15 +6,13 @@ export const SeccionesRoutes = () => {
         <>
             <Navbar />
 
-            <div className='container'>
-                <Routes>
-                    <Route path="inicio" element={<Inicio />} />
-                    <Route path="hombres" element={<Hombres />} />
-                    <Route path="mujeres" element={<Mujeres />} />
-                    <Route path="niños" element={<Niños />} />
-                    <Route path="/" element={<Navigate to="/inicio" />} />
-                </Routes>
-            </div>
+            <Routes>
+                <Route path="inicio" element={<Inicio />} />
+                <Route path="hombres" element={<Hombres />} />
+                <Route path="mujeres" element={<Mujeres />} />
+                <Route path="niños" element={<Niños />} />
+                <Route path="/" element={<Navigate to="/inicio" />} />
+            </Routes>
         </>
     )
 }

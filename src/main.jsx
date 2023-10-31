@@ -10,6 +10,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <BrowserRouter>
       <BlessApp />
     </BrowserRouter>
-    <Footer />
+    {/* <Footer /> */}
   </React.StrictMode>,
 )

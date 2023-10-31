@@ -4,7 +4,7 @@ import '../../styles/Hombres.css'
 
 import portadaHombres from '../../../assets/images/portada-hombres.png'
 import prontoHombresImg from '../../../assets/images/pronto-hombres.png'
-import { FeaturedProduct } from '../components'
+import { FeaturedProduct, Footer } from '../components'
 
 export const Hombres = () => {
     return (
@@ -47,6 +47,7 @@ export const Hombres = () => {
                 </div>
             </div>
             <FeaturedProduct seccion='Hombres' />
+            <Footer />
         </div>
     )
 }

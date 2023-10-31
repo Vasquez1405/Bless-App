@@ -24,13 +24,13 @@ export const Navbar = () => {
             <div className='navbar'>
                 <ul className="navbar-nav">
                     <NavLink className=' nav-item nav-link text-primary' to="/hombres">
-                        Hombre
+                        Hombres
                     </NavLink>
                     <NavLink className=' nav-item nav-link text-primary' to="/mujeres">
                         Mujeres
                     </NavLink>
                     <NavLink className=' nav-item nav-link text-primary' to="/niños">
-                        Niño
+                        Niños
                     </NavLink>
                 </ul>
             </div>

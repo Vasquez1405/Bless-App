@@ -4,23 +4,23 @@
     box-sizing: border-box;
 }
 
-.login {
+.register {
     display: flex;
     width: 100vw;
     height: 100vh;
     background-image: url('../../assets/images/login-background.png');
 }
 
-.login-hero {
+.register-hero {
     width: 60%;
     margin: auto 0;
 }
 
-.login-hero-img {
+.register-hero-img {
     width: 100%;
 }
 
-.login-form {
+.register-form {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,14 +31,10 @@
     border-radius: 5px;
 }
 
-.login-form h6 {
+.register-form h6 {
     font-weight: 700;
 }
 
-.login-form input {
+.register-form input {
     margin-bottom: 20px;
-}
-
-.login-form button {
-    margin-right: 10px;
 }

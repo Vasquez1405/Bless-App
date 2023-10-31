@@ -3,7 +3,7 @@ import React from 'react'
 import '../../styles/Niños.css'
 import portadaNiños from '../../../assets/images/portada-niños.png'
 import prontoNiñosImg from '../../../assets/images/pronto-niños.png'
-import { FeaturedProduct } from '../components/FeaturedProduct'
+import { FeaturedProduct, Footer } from '../components'
 
 export const Niños = () => {
     return (
@@ -38,6 +38,8 @@ export const Niños = () => {
             </div>
 
             <FeaturedProduct seccion='Niños' />
+
+            <Footer />
         </div>
     )
 }

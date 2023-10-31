@@ -7,6 +7,7 @@ import seccionHombreImg from '../../../assets/images/seccion-hombre.png'
 import seccionMujerImg from '../../../assets/images/seccion-mujer.png'
 import seccionNiñosImg from '../../../assets/images/seccion-niño.jpg'
 import articulosBuzoImg from '../../../assets/images/buzo.jpg'
+import { Footer } from '../components'
 
 export const Inicio = () => {
     return (
@@ -53,6 +54,7 @@ export const Inicio = () => {
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }

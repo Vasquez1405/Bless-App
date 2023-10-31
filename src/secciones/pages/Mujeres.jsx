@@ -4,7 +4,7 @@ import '../../styles/Mujeres.css'
 
 import portadaMujeres from '../../../assets/images/portada-mujeres.png'
 import prontoMujeresImg from '../../../assets/images/pronto-mujeres.png'
-import { FeaturedProduct } from '../components'
+import { FeaturedProduct, Footer } from '../components'
 
 export const Mujeres = () => {
     return (
@@ -47,6 +47,8 @@ export const Mujeres = () => {
             </div>
 
             <FeaturedProduct seccion='Mujeres' />
+
+            <Footer />
         </div>
     )
 }
