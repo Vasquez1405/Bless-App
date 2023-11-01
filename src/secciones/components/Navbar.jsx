@@ -1,14 +1,19 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Link, NavLink, useNavigate } from 'react-router-dom';
 import '../../styles/Navbar.css'
-import usuarioImg from '../../../assets/images/usuario.png'
 import logoBless from '../../../assets/images/logo-bless.png'
+import { AuthContext } from '../../auth/context/AuthContext';
 
 export const Navbar = () => {
+
+    const { user, logout } = useContext(AuthContext);
 
     const navigate = useNavigate();
 
     const onLogout = () => {
+
+        logout();
+
         navigate('/login', {
             replace: true
         });
@@ -37,12 +42,14 @@ export const Navbar = () => {
 
             <div className="">
                 <ul className="navbar-nav ml-auto">
+                    <span className='nav-item nav-link text-primary'>
+                        {user?.name}
+                    </span>
                     <button className='nav-item nav-link btn btn-primary' onClick={onLogout}>
                         LogOut
                     </button>
                 </ul>
             </div>
-            {/* <img className='header-usuario' src={usuarioImg} alt="" /> */}
         </nav>
     )
 }

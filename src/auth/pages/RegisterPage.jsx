@@ -2,12 +2,19 @@ import { useNavigate } from "react-router-dom"
 
 import '../../styles/Register.css'
 import registerHero from '../../../assets/images/register-hero.png'
+import { useContext } from "react";
+import { AuthContext } from "../context";
 
 export const RegisterPage = () => {
+
+    const { login } = useContext(AuthContext);
 
     const navigate = useNavigate();
 
     const onCreateAccount = () => {
+
+        login('Oscar Vasquez');
+
         navigate('/', {
             replace: true
         })
